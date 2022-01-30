@@ -23,7 +23,7 @@ with dataset_descrb:
     st.header('Diabetes patients dataset!')
     second_para = '<p style="font-family:Courier; color:Black; font-size: 20px;">Lets see the insights of the dataset by visualizing the dataset...</p>'
     st.markdown(second_para, unsafe_allow_html=True)
-    df = load_data("D:\DK\Dev\diabetes\diabetes_dataset.csv")
+    df = load_data("diabetes_dataset.csv")
     def clas(value):
         if value == 'tested_negative':
             return 0
