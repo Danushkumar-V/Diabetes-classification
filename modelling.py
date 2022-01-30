@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import pickle
 
-diabetes_dataset = pd.read_csv("D:\DK\Dev\diabetes\diabetes_dataset.csv")
+diabetes_dataset = pd.read_csv("diabetes_dataset.csv")
 
 def clas(value):
     if value == 'tested_negative':
